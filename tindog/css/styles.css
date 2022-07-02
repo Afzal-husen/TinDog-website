@@ -1,0 +1,171 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section {
+    background-color: #ff4c68;
+    padding: 3% 15%;
+    text-align: left;
+}
+
+.customNav {
+    padding-bottom: 6rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    text-align: left;
+}
+
+.dog-image {
+   width: 100%;
+}
+
+.image {
+     width: 24%;
+    transform: rotate(26deg);
+    position: absolute;
+    left: 50%;
+}
+
+.btn {
+   margin: 3% 3% 3% 0;
+}
+
+.list {
+    padding-right: 1.5rem;
+    text-align: center;
+}
+
+.white-section {
+    padding: 8% 15%;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+.feature {
+    padding: 3%;
+}
+
+.icon {
+    color: #ef8172;
+    font-size: 4rem;
+}
+.icon:hover {
+    color: #ff4c68;
+    font-size: 4rem;
+}
+
+.feature-title {
+    font-size: 1rem;
+}
+
+.testimonial-section {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+    padding: 8% 15%;
+}
+
+
+.testimonial-image {
+    display: flex;
+    margin: 1% auto;
+    align-items: center;
+    width: fit-content;
+}
+
+.testimonial-image img {
+    border-radius: 50%;
+    width: 100px;
+   height: 100px;
+}
+
+.testimonial-image span {
+    padding-left: 1rem;
+}
+
+.press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.press-image {
+    width: 15%;
+    margin: 0 1rem;
+}
+
+.pricing {
+    text-align: center;
+}
+
+.container {
+    margin: 8% auto;
+}
+
+.align {
+    text-align: center;
+}
+
+.center-align {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dec {
+    list-style-type: none;
+}
+
+.padd {
+    padding: 1rem auto;
+}
+
+
+@media (max-width: 1028px) {
+
+    .image {
+        width: 24%;
+       transform: rotate(0);
+       position: absolute;
+       left: 58%;
+   }
+
+    .section {
+        text-align: center;
+    }   
+
+}
+
+@media (max-width: 992px) {
+
+    .image {
+        width: 100%;
+       position: static;
+       text-align: center;
+   }
+
+   .dog-image {
+    width: 60%;
+   }
+
+
+}
